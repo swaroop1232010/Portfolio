@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="flex justify-center lg:justify-center">
           <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
             <Image
-              src="/images/u1.jpg"
+              src="./images/u1.jpg"
               alt="user"
               layout="fill"
               sizes="fit"

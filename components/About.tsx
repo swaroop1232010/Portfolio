@@ -71,7 +71,7 @@ const About = () => {
         </div>
         {/* <div className="relative mx-auto md:mx-0 mt-8 lg:mt-0 w-full max-w-xs md:max-w-none md:w-128 h-80 md:h-128">
           <Image
-            src="/images/about_me.jpg"
+            src="./images/about_me.jpg"
             alt="user"
             layout="fill"
             objectFit="cover"
