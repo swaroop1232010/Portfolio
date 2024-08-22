@@ -10,7 +10,7 @@ const Hero = () => {
   const router = useRouter();
 
   const handleCVClick = () => {
-    window.open("/assets/doc/Swaroop_Resume_Fullstack.pdf", "_blank");
+    window.open("./assets/doc/Swaroop_Resume_Fullstack.pdf", "_blank");
   };
 
   return (
