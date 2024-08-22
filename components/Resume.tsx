@@ -11,7 +11,7 @@ const Resume: React.FC = () => {
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
         <div>
           <a
-            href="/assets/doc/Swaroop_Resume_Fullstack.pdf"
+            href="./assets/doc/Swaroop_Resume_Fullstack.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300"
