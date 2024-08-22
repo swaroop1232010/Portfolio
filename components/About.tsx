@@ -15,7 +15,7 @@ const About = () => {
           <div className="mb-8 flex items-center md:space-x-10">
             <span className="w-24 hidden md:block h-1 bg-slate-400 rounded-sm"></span>
             <div className="text-lg text-slate-400">
-              I'm a versatile full-stack developer specializing in both backend
+              I&apos;m a versatile full-stack developer specializing in both backend
               and frontend technologies. My expertise lies in creating robust,
               scalable, and user-friendly web applications. My technical skills
               include:
