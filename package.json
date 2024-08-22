@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8081",
+    "start": "next start -p 8081",
+    "build": "next build",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "fm:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "fm:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "eslint-plugin-prettier": "^5.2.1",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-tsparticles": "^2.12.2",
+    "react-type-animation": "^3.2.0",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.2.5",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.40",
+    "prettier": "3.3.3",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5"
+  }
+}
