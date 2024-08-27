@@ -13,7 +13,7 @@ const Social = () => {
         <FaLinkedin style={{ color: "#0e76a8" }} />
       </Link>
       <Link
-        href={"https://github.com/swaroop1232010/Portfolio?tab=readme-ov-file"}
+        href={"https://github.com/swaroop1232010"}
         target="_blank"
         className="mr-[1rem]"
       >
