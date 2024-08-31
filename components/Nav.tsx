@@ -1,11 +1,17 @@
-import { Bars3Icon } from "@heroicons/react/16/solid";
-import React from "react";
+import React from 'react';
+import { Bars3Icon } from '@heroicons/react/16/solid';
 
 interface Props {
   openNav: () => void;
 }
 
 export const Nav = ({ openNav }: Props) => {
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      openNav();
+    }
+  };
+
   return (
     <div className="w-[100%] sticky z-[10000] top-0 h-[12vh] bg-[#141c27] shadow-md">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
@@ -18,7 +24,7 @@ export const Nav = ({ openNav }: Props) => {
         <div className="nav-link">ABOUT</div>
         <div className="nav-link">PROJECT</div>
         <div className="nav-link">CONTACT</div>
-        <div onClick={openNav}>
+        <div onClick={openNav} onKeyDown={handleKeyDown} role="button" tabIndex={0}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
         </div>
       </div>

@@ -1,5 +1,5 @@
-import { XMarkIcon } from "@heroicons/react/16/solid";
-import React from "react";
+import React from 'react';
+import { XMarkIcon } from '@heroicons/react/16/solid';
 
 interface Props {
   nav: boolean;
@@ -7,7 +7,13 @@ interface Props {
 }
 
 const MobileNav = ({ nav, closeNav }: Props) => {
-  const navAnimation = nav ? "translate-x-0" : "translate-x-[-100%]";
+  const navAnimation = nav ? 'translate-x-0' : 'translate-x-[-100%]';
+
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      closeNav();
+    }
+  };
 
   return (
     <div
@@ -23,6 +29,9 @@ const MobileNav = ({ nav, closeNav }: Props) => {
       </div>
       <div
         onClick={closeNav}
+        onKeyDown={handleKeyDown}
+        role="button"
+        tabIndex={0}
         className="absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400"
       >
         <XMarkIcon />
