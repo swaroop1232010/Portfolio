@@ -28,7 +28,7 @@ const Footer = () => (
         </div>
         <div>
           <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">To Reach Me:</h1>
-          <p className="text-[17px] w-[90%] text-white opacity-60">swaroop1232@gmail.com</p>
+          <p className="text-[17px] w-[90%] text-white opacity-60">swaroop1232010@gmail.com</p>
         </div>
       </div>
     </div>

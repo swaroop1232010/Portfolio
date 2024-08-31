@@ -30,30 +30,29 @@ const Blog = () => (
           <p className="mt-[1rem] text-white text-[18px] font-semibold">3 New API’s In React 18</p>
         </div>
       </div>
-      {/* <div data-aos="fade-up" data-aos-delay="300">
-          <div className="w-[100%] relative h-[400px]">
-            <Image
-              src="./images/b1.jpg"
-              alt="blog"
-              layout="fill"
-              className="object-cover"
-            />
+      <div data-aos="fade-up" data-aos-delay="300">
+        <Link
+          href="https://medium.com/@swaroop1232010/step-by-step-guide-to-setting-up-sonarqube-for-your-java-spring-boot-project-on-windows-8f062498751a"
+          target="_blank"
+          className="block inset-0 w-[100%] relative h-[400px]"
+        >
+          <Image src="./images/b2.png" alt="blog" layout="fill" className="object-fit" />
+        </Link>
+        <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
+          <div className="w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+            Aug 31, 2024
           </div>
-          <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
-            <div className="w-fit px-[2rem] py-[1rem] bg-[#55e6a5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
-              Apr 7, 2023
-            </div>
-            <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
-              <div className="flex items-center space-x-3">
+          <div className="flex flex-col md:flex-row items-center mt-[1rem] space-x-4">
+            {/* <div className="flex items-center space-x-3">
                 <UserCircleIcon className="w-[1.5rem] mx-auto h-[1.5rem] text-[#55e6a5]" />
                 <p className="text-white">By Swaroop Reddy</p>
-              </div>
-            </div>
-            <p className="mt-[1rem] text-white text-[18px] font-semibold">
-              NextJS Fullstack Development
-            </p>
+              </div> */}
           </div>
-        </div> */}
+          <p className="mt-[1rem] text-white text-[18px] font-semibold">
+            Java X SonarQube.
+          </p>
+        </div>
+      </div>
       {/* <div data-aos="fade-up" data-aos-delay="600">
           <div className="w-[100%] relative h-[400px]">
             <Image
